@@ -1,0 +1,5 @@
+x , y = input().split()
+a = input()
+print("type of x", type(x))
+print("type of y", type(y))
+print("type of a", type(a))
