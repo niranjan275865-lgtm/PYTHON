@@ -1,0 +1,5 @@
+file=open("sample.txt", 'w')
+file.write("python file  is handling")
+file.write("second file")
+file.close()
+print("file  created and content written successfully")
