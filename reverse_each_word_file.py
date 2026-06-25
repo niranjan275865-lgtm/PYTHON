@@ -1,0 +1,10 @@
+file = open("sample.txt", "r")
+
+content = file.read()
+
+words = content.split()
+
+for word in words:
+    print(word[::-1])
+
+file.close()
