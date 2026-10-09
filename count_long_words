@@ -1,0 +1,10 @@
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+count = 0
+
+for word in words:
+    if len(word) > 5:
+        count += 1
+
+print("Words with more than 5 characters:", count)
