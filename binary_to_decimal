@@ -1,0 +1,7 @@
+binary = input("Enter a binary number: ")
+
+if binary and all(digit in "01" for digit in binary):
+    decimal = int(binary, 2)
+    print("Decimal number:", decimal)
+else:
+    print("Please enter a valid binary number")
